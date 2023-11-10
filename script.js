@@ -1,14 +1,9 @@
 const output = document.querySelector('.output')
-const indexH1 = document.querySelector('.indexh1')
-const indexH5 = document.querySelector('.indexh5')
 
-function indexReset(){
-    indexH1.style.cssText = 'display: none;'
-    indexH5.style.cssText = 'display: none;'
-}
+
 
 function funcPromise() {
-indexReset()
+output.innerHTML = ``
 output.innerHTML = `
 <h5>1.Promise (Обещание):</h5><br>
     Promise - это объект, представляющий асинхронную операцию, 
