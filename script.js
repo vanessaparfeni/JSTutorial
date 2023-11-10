@@ -67,3 +67,7 @@ output.innerHTML = `
     </pre>
     `
 }
+function Clear(){
+    output.innerHTML = ''
+    alert('Очистка прошла успешно !')
+}
